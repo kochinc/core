@@ -441,6 +441,7 @@ class FormFactory implements FormFactoryInterface
             'ur_PK' => 'پاکستان - اُردُو',
             'zh_CN' => '汉语 - 中国',
             'zh_HK' => '繁體字 - 香港',
+            'zh_TW' => '正體中文 - 臺灣',
         );
 
         return $this->createSelect($name)->fromArray($languages);
